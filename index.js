@@ -2,11 +2,13 @@ const express = require("express");
 const messagesRouter = require("./routers/messagesRouter"); //look here
 const rezervationRouter = require("./routers/rezervationRouter");
 const utilsRouter = require('./routers/utilsRouter');
+const cors = require("cors");
 
 
 const bodyParser = require("body-parser");
 
 const app = express();
+app.use(cors());
 // for parsing application/json
 app.use(bodyParser.json()); 
 

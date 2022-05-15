@@ -125,7 +125,6 @@ router.post("/foreign", async (req, res) => {
   }
 
 
-
   try {
 
     sendMail(receiverMail, senderMail, messageContent, `${senderName} has sent you a message.`);
