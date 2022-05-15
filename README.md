@@ -14,7 +14,7 @@ SendGrid – este un serviciu care are ca principală funcționalitate experiere
 </h4>
 <h3>•	Fluxuri de date </h3>
 <h4>În cadrul aplicației se realizeaza get-uri și posturi pentru diferitele operatii efectuate de un client.
-<img src="https://user-images.githubusercontent.com/72069136/168493439-25df99ff-2fe6-4925-8fb8-9d3dbf50fdbe.png" alt="Alt text" title="Optional title">
+<img src="https://user-images.githubusercontent.com/72069136/168493439-25df99ff-2fe6-4925-8fb8-9d3dbf50fdbe.png" alt="Alt text" title="Optional title"> </br>
 Pentru ambele tabele ale aplicației au fost realizate operatiile crud de select, insert, update, delete pentru toata tabela cât și pentru id-uri explicite.
 Cele mai frecvente rude utilizate în aplicație sunt cele de get all messages, insert a rezervation, intert a message și cea de mailing care folosește serviciul sendGrid.
 </h4>
